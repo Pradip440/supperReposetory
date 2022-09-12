@@ -150,7 +150,9 @@ public class Example1 {
 		 System.out.println(Arrays.toString(arr));		
 	 }
 		  
-		  
+		  public void show10() {
+			  
+		  }
 		
 	public static void main(String[] args) {
 		Example1 e=new Example1();
