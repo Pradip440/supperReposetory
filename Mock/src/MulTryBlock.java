@@ -57,7 +57,7 @@ public class MulTryBlock {
 		
 		MulTryBlock m=new MulTryBlock();
 		//m.show();
-		m.show2();
+		m.show5();
 //		try {
 //			int a=6;
 //			int b=0;

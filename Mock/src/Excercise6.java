@@ -67,7 +67,8 @@ public void show5() {
 }
 public void show6() {
 	int[] arr = {5, 7, 2, 4, 9,11};
-	System.out.println("Original Array: "+Arrays.toString(arr)); 
+	System.out.println("Original Array: "
+	+Arrays.toString(arr)); 
 	int max = arr[0];
 	int min = arr[0];
 	for(int i = 1; i < arr.length-1; i++)
@@ -118,8 +119,8 @@ public void show8() {
 	 // e.show3();
 	 // e.show4();
 	 // e.show5();
-	 // e.show6();
-	  e.show7();
+	  e.show6();
+	 // e.show7();
     //e.show8();
     
     }	

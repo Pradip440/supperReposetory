@@ -4,10 +4,10 @@ class PalindromExaple  {
 	public void show() {
 		 String s, reverse = "";  
 		 
-//	      Scanner sc = new Scanner(System.in);   
-//	      System.out.println("Enter a number or string");  
-//	      s = sc.nextLine();  
-		s="amama"; 
+	      Scanner sc = new Scanner(System.in);   
+	      System.out.println("Enter a number or string");  
+	      s = sc.nextLine();  
+		//s="amama"; 
 	     
 	      for ( int i =s.length() - 1; i >= 0; i-- ) 
 	      { 

@@ -3,7 +3,7 @@ class All{
 	String s1 = "Sachin";
 	String s2 =" Tendulakar";
 	String s3 = "Sachin";
-	public void concat() {
+	public  void concat() {
 	
 	String s3=s1.concat(s2);
 	System.out.println(s3);

@@ -21,19 +21,21 @@ public class Assigment4 {
 }  
 	public void reverse()
     {
+		
 		int [] arr = {3,90,45,29,37,78};
-		Arrays.sort(arr);		
-		System.out.println(Arrays.toString(arr));
+		System.out.println("\nreverse array");
+	//	Arrays.sort(arr);		
+		//System.out.println(Arrays.toString(arr));
 		for(int i=arr.length-1;i>=0;i--) {
 		
-			System.out.println(arr[i]);
+			System.out.println(arr[i]+" ");
 		}
     }
     public static void main(String[] args)
     {
     
         Assigment4 a=new Assigment4();
-        //a.show();
+        a.show();
         a.reverse();
     }
 }

@@ -26,7 +26,7 @@ public class PrimeNumber {
 		
 			checkPrime(2);
 			checkPrime(3);
-			 checkPrime(17);
+			 checkPrime(16);
 			 checkPrime(22);
 			 
 		 

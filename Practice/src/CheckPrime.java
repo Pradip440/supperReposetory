@@ -6,15 +6,10 @@ public class CheckPrime {
 		System.out.println("Enter a number n1  is :");
 		int n1=sc.nextInt();
 		int flag=0;
-		for (int i =2;i<n1/2;i++) {
-			
-			if (n1%i==0) {
-				
-				System.out.println(n1 + " is not prime");
-			
-				flag=1;
-			 
-			break;
+		for (int i=2;i<=n1/2;i++) {	
+			if (n1%i==0) {			
+				flag=1; 
+				break;
 			}
 		}
 		if (flag==0)
@@ -26,9 +21,10 @@ public class CheckPrime {
 	}
 	static void check1() {
 		String primenumbers=" ";
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter n :");
-		int n=sc.nextInt();
+		int n=10;
+//		Scanner sc=new Scanner(System.in);
+//		System.out.println("Enter n :");
+//		int n=sc.nextInt();
 		for(int i=1;i<=n;i++) {
 			int cnt=0;
 			for(int num=i;num>=1;num--) {
@@ -42,12 +38,13 @@ public class CheckPrime {
 			}
 		}
 		System.out.println(primenumbers);
-		sc.close();
+		//sc.close();
 
 	}
 		public static void main(String[] args ) {
 		check();
-	
+//			check1();
+
 		
 	}
 	

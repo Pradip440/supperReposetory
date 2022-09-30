@@ -28,10 +28,32 @@ public class Anagram {
 		}
 		
 	}
+	
+	public  void isAnagram2(String str1 , String str2) {
+		
+		String s1=str1;
+		String s2=str2;
+		boolean flag=true;
+		if (s1.length() !=s2.length()) {
+			flag=false;
+			
+		}
+		
+		if (flag==false) {
+			System.out.println(s1 + " and " +s2 + " are not anagram");
+		}
+		else {
+			System.out.println(s1 + " and "+ s2 + " are  anagram");
+		}
+		
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		isAnagram("keep","peek");
-		isAnagram("peek","keek");
+		Anagram a= new Anagram();
+		a.isAnagram2("keep", "pleek");
+
+//		isAnagram("keep","peek");
+//		isAnagram("peek","keek");
 	}
 
 }

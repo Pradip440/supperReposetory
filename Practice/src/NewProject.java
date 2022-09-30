@@ -23,10 +23,18 @@ public class NewProject {
 		 System.out.println("are not an Anagram");
 	 }
 	 
+	 
 }
+ 
+ public void show3() {
+	  String str ="hi";
+	   str="hellow";
+	  System.out.println(str);
+ }
 	public static void main(String[] args) {
-	
-		isAnagram("naman","naman");
+		NewProject n=new NewProject();
+		n.show3();
+	//	isAnagram("naman","naman");
 	}
 
 }

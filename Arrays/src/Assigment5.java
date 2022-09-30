@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Assigment5 {
 	 public static void main(String[] args)
 	 {         
-	        int [] arr = new int [] {3,10,90,78,56,10,78,5,61};   
+	        int [] arr =  {3,10,90,78,56,10,78,5,61};   
 //	        Scanner sc = new Scanner(System.in);
 //			System.out.print("Enter size of array : ");
 //			int size = sc.nextInt();	 
@@ -14,16 +14,18 @@ public class Assigment5 {
 //			{
 //				arr[i]=sc.nextInt();
 //			}
+	        
 	        System.out.println("Duplicate elements in given array: ");  
-	        for(int i = 0; i < arr.length; i++)
+	        for(int i = 0; i < arr.length-1; i++)
 	        {  
-	            for(int j = i + 1; j < arr.length; j++)
-	            {  
-	                if(arr[i] == arr[j]) 
-	                {
-	                    System.out.println(arr[j]);  
-	                }
-	            }  
+	        	 for(int j = i + 1; j < arr.length; j++)
+		            {  
+		                if(arr[i] == arr[j]) 
+		                {
+		                    System.out.println(arr[j]);  
+		                }
+		            }  
+	            
 	        }  
 	       // sc.close();
 	    }  

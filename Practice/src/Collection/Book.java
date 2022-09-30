@@ -64,6 +64,8 @@ public class Book {
 				
 				System.out.println("Key : (" + entry.getKey()+ "), Value : "+ entry.getValue());
 			}
+			
+			
 			HashMap<Integer,String> map=new LinkedHashMap<>();
 			map.put(2, "Two");
 			map.put(4, "Four");

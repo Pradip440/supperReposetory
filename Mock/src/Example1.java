@@ -138,7 +138,7 @@ public class Example1 {
 		 int temp=0;
 		 for(int i=0;i<arr.length-1;i++) {
 			 
-				 if(arr[i]>arr[i+1]) {
+				 if(arr[i]<arr[i+1]) {
 					 temp=arr[i];
 					 arr[i]=arr[i+1];
 					 arr[i+1]=temp;
@@ -164,7 +164,7 @@ public class Example1 {
 		//e.showReverse();
 		//e.showFirstNonRepeating();
 		//e.show7();
-		// e.show8();
+		 e.show8();
 		e.show9();
 		
 	}
